@@ -34,7 +34,6 @@ android {
         jvmTarget = JavaVersion.VERSION_1_8.toString()
     }
 }
-
 dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar"])
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
@@ -99,3 +98,4 @@ dependencies {
     api "com.google.android.exoplayer:exoplayer-ui:2.11.8"
     api "com.google.android.exoplayer:extension-mediasession:2.11.8"
 }
+
